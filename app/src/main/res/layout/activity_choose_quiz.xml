@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/optionsbackground"
+    android:orientation="vertical"
+    tools:context=".ChooseQuizActivity"
+
+    >
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/beginnerChiose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#A2E3E1"
+        android:padding="16dp"
+        app:cardCornerRadius="60dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BEGINNER"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/advancedChiose"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:background="#6A6E6E"
+        android:padding="16dp"
+        app:cardCornerRadius="60dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADVANCED"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/professinalsChiose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#6A6E6E"
+        android:padding="16dp"
+        app:cardCornerRadius="60dp"
+        android:layout_marginBottom="80dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFESSIONAL"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/rliv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#A2E3E1"
+        android:padding="16dp"
+        app:cardCornerRadius="60dp"
+        android:layout_marginBottom="80dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORM UP!"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+</LinearLayout>
